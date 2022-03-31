@@ -1,0 +1,430 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+body{
+	background: #fff;
+}
+ /*header css*/
+ header{
+ 	background: #003C68;
+ 	color: #fff;
+ 	padding: 20px 30px;
+ }
+
+ /*logo*/
+ #logo {
+ 	display: inline-block;
+ 	width: 49%;
+
+ }
+
+ .log {
+ 	height: 5px;
+ 	height: 20px;
+ }
+
+ /*navbar*/
+ nav{
+	 margin-left: 250px;
+	 padding-left: 150px;
+	 width: 80%;
+	 display: inline-block;
+	 text-align: right;
+ }
+
+ nav ul{
+ 	list-style: none;
+ 	margin: 0;
+ }
+
+ nav ul li{
+ 	display: inline-block;
+ }
+
+nav ul li a{
+	color: #C2A4D2;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-family: segoe ui;
+
+}
+
+.sign {
+	display: inline-block;
+	color: #CDB4DB;
+	border: 1.5px solid #CDB4DB;
+	border-radius: 5px;
+	padding:5px 10px;
+	margin-right: 20px;
+}
+
+nav ul li a:hover{
+	background: #fff;
+}
+
+
+
+/*main content*/
+.hero{
+	min-width: 1000px;
+	text-align: left;
+	background-color: #fff;
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+
+.hero-content {
+	color: #000;
+	padding-top: 100px;
+}
+
+
+
+.hero-content h1 {
+	font-size: 50px;
+	margin: 0;
+	font-family: segoe ui;
+	color: #003C68;
+
+}
+
+.hero-content p {
+	font-size: 15px;
+	font-family: segoe ui;
+	font-weight: light;
+}
+
+.hero-content a {
+  display: block;
+  width: 50%;
+  height: 40px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #9463AC, #CDB4DB, #9463AC);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: .5s;
+  text-decoration: none;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+.hero-content a:hover{
+  background-position: right;
+}
+
+
+.hero-content a:hover {
+	color: #CDB4DB;
+	background-color: #fff;
+
+}
+
+.pic {
+	width: 400px;
+	height: 350px;
+}
+
+.box {
+	display: inline-block;
+	width: 40%;
+	padding: 20px 30px;
+}
+
+.easy {
+	width: 200px;
+	padding-left: 50px;
+	
+}
+
+.free {
+	width: 230px;
+	padding-left: 40px;
+
+}
+
+.secure {
+	width: 190px;
+	padding-left: 70px;
+}
+
+/*feture boxes*/
+.feature-box {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 30px;
+}
+
+.feature-box h5 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #CDB4DB;
+	letter-spacing: 2px;
+	margin: 0;
+	font-family:segoe ui;
+	text-align: center;
+}
+.feature-box p {
+	font-family: segoe ui;
+	font-size: 13px;
+	text-align: center;
+}
+#fr {
+	background-color: #003C68;
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+	border-radius: 4px;
+}
+
+/*site section*/
+.site-section{
+	padding-bottom: 50px;
+	padding-top: 50px;
+
+}
+
+.site-section-secondary {
+	background: #CDB4DB; 
+}
+
+.site-section-inside {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.section-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.section-header h2 {
+	font-size: 35px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #003C68;
+	font-family: segoe ui;
+	font-weight: bold;
+}
+
+/*scan video*/
+.scan-big-box{
+	min-width: 1000px;
+	text-align: left;
+	background-color: #fff;
+	padding-left: 200px;
+	padding-right: 100px;
+	}
+
+.scan-medium-box {
+	color: #000;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.scan-medium-box h2 {
+	font-size: 50px;
+	font-family: segoe ui;
+	color: #003C68;
+
+}
+
+.scan-medium-box p {
+	font-size: 15px;
+	font-family: segoe ui;
+	font-weight: light;
+}
+
+.scan-medium-box a {
+  display: block;
+  width: 55%;
+  height: 40px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #003C68, #CDB4DB, #003C68);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: .5s;
+  text-decoration: none;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+.scan-medium-box a:hover{
+  background-position: right;
+}
+
+.vid {
+	width: 250px;
+}
+
+.scan-little-box {
+	display: inline-block;
+	width: 40%;
+	padding: 20px 30px;
+}
+
+/*scan photo*/
+.scan-photo-big-box{
+	min-width: 1000px;
+	text-align: left;
+	background-color: #fff;
+	padding-left: 200px;
+	padding-right: 100px;
+	}
+
+.scan-photo-medium-box {
+	color: #000;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.scan-photo-medium-box h2 {
+	font-size: 50px;
+	font-family: segoe ui;
+	color: #003C68;
+
+}
+
+.scan-photo-medium-box p {
+	font-size: 15px;
+	font-family: segoe ui;
+	font-weight: light;
+}
+
+.scan-photo-medium-box a {
+  display: block;
+  width: 55%;
+  height: 40px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #CDB4DB, #003C68, #CDB4DB);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: .5s;
+  text-decoration: none;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+.scan-photo-medium-box a:hover{
+  background-position: right;
+}
+
+.phot {
+	width: 350px;
+}
+
+.scan-photo-little-box {
+	display: inline-block;
+	width: 40%;
+	padding: 20px 30px;
+}
+
+/*testimonial boxes*/
+.testimonial-box {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 30px;
+}
+.feature-box h5 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #CDB4DB;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+/*testimonial boxes*/
+.testimonial-box {
+	display: inline-block;
+	width: 290px;
+	padding: 20px 30px;
+}
+
+.testimonial-content {
+	background: #ECE4F2;
+	padding: 5px;
+	margin-bottom: 15px;
+	font-family: arial;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.testimonial-author img{
+	float: left;
+	width: 80px;
+	border: solid #ECE4F2;
+	border-radius: 50%;
+	margin-right: 50px: 
+	vertical-align: middle;
+	
+}
+
+.testimonial-author h5 {
+	font-size: 15px;
+	margin: 20%;
+	padding-top: 15px; 
+	font-family: segoe ui;
+	font-weight: bold;
+	text-align: center;
+}
+
+.testimonial-author p {
+	text-align: center;
+	padding-left: 20px;
+	font-family: segoe ui;
+	font-size: 12px;
+
+}
+
+
+/*footer*/
+
+footer {
+	background: #003C68;
+	color: #fff;
+	padding: 30px;
+	text-align: center;
+	font-family: arial;
+
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+.gha {
+	color: #CDB4DB;
+}
+	
+.return-top {
+	text-decoration: none;
+	color: #CDB4DB;
+}
+
